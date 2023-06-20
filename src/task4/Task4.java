@@ -16,7 +16,6 @@ public class Task4 {
                 System.out.println("Отлично, выбранная вами температура равна " + enteredTemp + " C");
             } else {
                 throw new OutOfAvailableTemperatureException("К сожалению данная температура не допустима для работы " + "Вы указали " + enteredTemp + " C");
-
             }
         } catch (InputMismatchException e){
             System.out.println("Вы ввели не число!");
